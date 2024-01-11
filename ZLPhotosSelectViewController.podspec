@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZLPhotosSelectViewController'
   
-  s.version          = '3.1.1'
+  s.version          = '3.1.2'
   
   s.summary          = '定制照片选择器、图片压缩功能'
 
