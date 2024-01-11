@@ -1,0 +1,24 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+    @import UIKit;
+    @import Foundation;
+
+    #define ZLGETRESOURCES [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:[NSBundle.mainBundle pathForResource:@"list" ofType:@"json"]] options:(NSJSONReadingMutableContainers) error:nil]
+
+    #define ZLSHOWVERSION UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(15.0, UIScreen.mainScreen.bounds.size.height - 80.0, UIScreen.mainScreen.bounds.size.width - 30.0, 60.0)];label.textColor = UIColor.whiteColor;label.text = [NSString stringWithFormat:@"Version: %@",[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]];label.textAlignment = NSTextAlignmentCenter;label.font = [UIFont systemFontOfSize:15.0];[self.view addSubview:label];
+
+    #define ZLADAPTER_IOS11 if (@available(iOS 11.0, *)) {self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;self.tableView.scrollIndicatorInsets = self.tableView.contentInset;self.tableView.estimatedRowHeight = 0;self.tableView.estimatedSectionHeaderHeight = 0;self.tableView.estimatedSectionFooterHeight = 0;}BOOL isBangDevice = NO;if (@available(iOS 11.0, *)) {isBangDevice = UIApplication.sharedApplication.delegate.window.safeAreaInsets.bottom;}CGFloat navigationHeight = isBangDevice ? 84.0 : 64.0;self.tableView.contentInset = UIEdgeInsetsMake(navigationHeight, 0, 0, 0);
+
+#endif

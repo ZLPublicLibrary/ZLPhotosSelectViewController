@@ -1,0 +1,22 @@
+PODS:
+  - ZLPhotosSelectViewController (3.1.0):
+    - ZLPhotosSelectViewController/Album (= 3.1.0)
+    - ZLPhotosSelectViewController/Compression (= 3.1.0)
+    - ZLPhotosSelectViewController/OperationQueue (= 3.1.0)
+  - ZLPhotosSelectViewController/Album (3.1.0)
+  - ZLPhotosSelectViewController/Compression (3.1.0)
+  - ZLPhotosSelectViewController/OperationQueue (3.1.0)
+
+DEPENDENCIES:
+  - ZLPhotosSelectViewController (from `../`)
+
+EXTERNAL SOURCES:
+  ZLPhotosSelectViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZLPhotosSelectViewController: 86425e2040778cc6107d9f97151d4ffcb7318394
+
+PODFILE CHECKSUM: 844d338b74127c5948cc1921ea4f39a28c3595e4
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,33 @@
+[
+    {
+        "id" : "1",
+        "title" : "照片选择",
+        "remark" : "支持单选、多选、拍照等功能",
+        "name" : "ZLAlbumViewController"
+    },
+    {
+        "id" : "2",
+        "title" : "图片压缩",
+        "remark" : "仿微信压缩方式，比例缩放图片，使图片高清不失真",
+        "name" : "ZLCompressionViewController"
+    },
+    {
+        "id" : "3",
+        "title" : "排队机制",
+        "remark" : "利用递归，控制循环次数，实现依次排队操作，告知执行结果",
+        "name" : "ZLOperationQueueViewController"
+    },
+    {
+        "id" : "4",
+        "title" : "模拟使用",
+        "remark" : "将选择图片、图片压缩、图片上传的步骤进行模拟",
+        "name" : "ZLSimulationUseViewController"
+    },
+    {
+        "id" : "5",
+        "title" : "图片裁剪[正在建设中...]",
+        "remark" : "将图片按照指定比例进行裁剪",
+        "name" : "ZLTailorImageViewController"
+    }
+]
+

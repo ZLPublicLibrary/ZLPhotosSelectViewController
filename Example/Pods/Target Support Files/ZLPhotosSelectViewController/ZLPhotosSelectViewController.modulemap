@@ -1,0 +1,6 @@
+framework module ZLPhotosSelectViewController {
+  umbrella header "ZLPhotosSelectViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

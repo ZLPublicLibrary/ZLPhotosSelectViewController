@@ -1,0 +1,1050 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D4BC3911A903B624837DC38148FEE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		046C05070F09F741D6005411FFBB36D0 /* ZLPhotosSelectNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB76C6E2F9ACFCB6194A279E00F9524 /* ZLPhotosSelectNavBar.m */; };
+		26A490EBFAD18474D6046B5017076990 /* ZLPhotosSelectConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF1225DCD0C5A4C26E2A538465EC328 /* ZLPhotosSelectConfig.m */; };
+		2CF26093BA18B30D161124935A9394FD /* ZLPhotosSelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EC018FF2C2DB83868D3FC8C2DBA4F1 /* ZLPhotosSelectModel.m */; };
+		2D32635CCB6409C6F6621FE051F1D9C8 /* 相册@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 370052C604E6E3B993E70F361DB02D91 /* 相册@3x.png */; };
+		31B3E4407878184D4F7ADB0345A1EBD9 /* 相机@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6951136DAF408C9D9640340F271FDAE /* 相机@2x.png */; };
+		34A19238E54567BFE3005CEA1B3D99BA /* UIImage+ZLGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E94207AC5FE75E8F028C05075484AB1 /* UIImage+ZLGIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34C1D25B2A3836765DE3EC8873C4F343 /* ZLPhotosSelectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EF005B7ABE720D48A8403C5D9DCBC8E /* ZLPhotosSelectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		393DE53C19CE3B53BA81A8D76C0D9976 /* ZLPhotosSelectSandboxManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A4D5EFF319B7F18618185D58351775 /* ZLPhotosSelectSandboxManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		438D4C399C42C595F313E4E7D01E9DF9 /* ZLOperationProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F59C06CFE0AF8350B4751D4CF30A1009 /* ZLOperationProgressBar.m */; };
+		49524CECD03B562E2382A7A7FCF3D80C /* ZLPhotosSelectViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04433E3C410A60C3DEDE748325018746 /* ZLPhotosSelectViewController-dummy.m */; };
+		5296CBCFF860D17E65C41507296DD449 /* ZLPhotosSelectImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E774890577B40A49BEAC5635B2BE2615 /* ZLPhotosSelectImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59854D7DC1EBD8E7ACF7F0301185C2FC /* Pods-ZLPhotosSelectViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9428B13C504AB1816BFF8A91DFCDCC /* Pods-ZLPhotosSelectViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A1A4BF4867B69ED3074FC916BB30D67 /* 拍照上传@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46208E3CBE2A986F1225BDB764DD7DA5 /* 拍照上传@3x.png */; };
+		5FB96EA02536E3AFFF04D4170D8D8717 /* 录音@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FC0545DEC1914C04718418DD691D0C /* 录音@3x.png */; };
+		63D13A43CEECB5EAAD8561B52A47640E /* ZLPhotosSelectUnitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB706A9411964F52CDF22310BBA052B /* ZLPhotosSelectUnitModel.m */; };
+		6558353FC21D60A563DCFFACB141A20F /* ZLPhotosSelectHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AEB40BBC7C9CB29DF42F1CFE2B0E55 /* ZLPhotosSelectHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67C0D949F22C341C3F8F1F2826F176E5 /* Pods-ZLPhotosSelectViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B3161C5651C0DDF337149D5EBF3B5E /* Pods-ZLPhotosSelectViewController_Tests-dummy.m */; };
+		730D2B6FCF4623746E252A6CB7D0CE2D /* ZLCompressionImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A09830597B7650B45482BAF9483F92 /* ZLCompressionImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76B0969A7377A2BDCBE16E2DA4FE9B7E /* ZLPhotosSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C0135639996EF272B69867E87ABB7C /* ZLPhotosSelectViewController.m */; };
+		79F1C4342A8AB9E211A43817A74A347B /* ZLOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAFD4A2E259F8569A682CEDCECAED68 /* ZLOperationManager.m */; };
+		7EE964D5D81695E6B4169F968DC4E570 /* ZLPhotosSelectMessageTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 068FBD8E44A7A1157CC0E22258256CCC /* ZLPhotosSelectMessageTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DEB88A27897E126739B189F211E917 /* ZLPhotosSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CFD27CE87BA7A55F125221D0548BA9 /* ZLPhotosSelectView.m */; };
+		8A1CD99D0330A4F5F29439F2335EB688 /* Pods-ZLPhotosSelectViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A3650EC474FE8E3A6C1E17786CEB6A /* Pods-ZLPhotosSelectViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A5269DCEC0AD39AA9D540CFA4E9381B /* ZLPhotosSelectCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DA32630DB54C74DD8C8071D02588F1 /* ZLPhotosSelectCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ECC13005086ECA0AB6DF720CF196E7F /* Pods-ZLPhotosSelectViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF00D881C93209055AA14B619C5DB74 /* Pods-ZLPhotosSelectViewController_Example-dummy.m */; };
+		924957F48DA0556F95C6A107FCC3DFA2 /* ZLPhotosSelectMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B072CABC19FC4ACDBBC054459713C9E8 /* ZLPhotosSelectMessageTextView.m */; };
+		93CA3D0E41D341E4C76B9AD2A594A149 /* ZLPhotosSelectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B74CED7F1D9EBF8FE43CDE914B2727C /* ZLPhotosSelectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95336C5347F3ED832144AFF615C4CF57 /* ZLOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F048924AF955E62C1C5A52B881B18840 /* ZLOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D4757F9D7EFB3753010DDFEE101CB1E /* ZLPhotosSelectViewController-ZLPhotosSelectViewController in Resources */ = {isa = PBXBuildFile; fileRef = A2C1F619BA0F01F33EBB20A9E71B6A2E /* ZLPhotosSelectViewController-ZLPhotosSelectViewController */; };
+		A15619B8405883FF4AD1392397E56C4C /* ZLOperationProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B8790614FA004EEAE76DE35588CB10 /* ZLOperationProgressBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A584E359AE092F080EFB09B64544DC11 /* ZLPhotosSelectConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC884EA8C327882B2A6D3661342B3FD /* ZLPhotosSelectConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB38F5C6690E6E1D2A44115270E09EBC /* 相机@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72CF9B6D28DF96502DB7008B197AF003 /* 相机@3x.png */; };
+		C4C686137C3F66F2621B64449AFF74CA /* ZLPhotosSelectViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EAF3159409AC186FD6CAD8E85BFEFE9 /* ZLPhotosSelectViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C646EAF0AAEBCE48D0E3244D9736D08F /* ZLPhotosSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC56A1027E4BEBB289E1E91B68B6B71 /* ZLPhotosSelectCell.m */; };
+		C93F1712400E68201DCF24ED48C052C2 /* ZLPhotosSelectSandboxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A58EC7BBD8BAE5B6C4106C618BB0D3FC /* ZLPhotosSelectSandboxManager.m */; };
+		CAD57B78D76CE43C84A8A844CEB37F0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		CC96BB2D0C5CA541EFE0947D81EA55CB /* ZLPhotosSelectNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C78D63C6E9EE6214B33FDD8E5DE9B4 /* ZLPhotosSelectNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F7A009D85A3110383D4953D4B32946 /* ZLCompressionImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7524F95091CD8602C40222A9B1C4984F /* ZLCompressionImageManager.m */; };
+		D28B224ABE8F38F767049A2BAFD1227B /* ZLPhotosSelectUnitModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 309FB67C3766CF7BF6DF8E7625E410DE /* ZLPhotosSelectUnitModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D86210E8F28B61266705D0B7A2BA1759 /* 相册@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B55ABEFD700ED2AD8992AD5FE84F6717 /* 相册@2x.png */; };
+		DBD99BBB8812DC6B5DD43E47814298A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		DE4BAF4EE5C5DEE5DF6D410C86CCC81A /* 录音@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3505FB63DBB2779C6D2AFACCCD65E914 /* 录音@2x.png */; };
+		DF0F0E80E44F8947A83458E75ED80264 /* UIImage+ZLGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = C656D2968D0699753D686998F50AFCFC /* UIImage+ZLGIF.m */; };
+		E93F1ED52C0D6CA11FB40EA21E62B7DE /* ZLPhotosSelectImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBF7BD2E5524182403E41552E2A80B4 /* ZLPhotosSelectImageView.m */; };
+		E95434E1B50BE959DD06381546E4F8F5 /* ZLPhotosSelectHardwareJurisdictionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1127B5664ACCFF6EBC0D03460FCD26 /* ZLPhotosSelectHardwareJurisdictionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA466BAED278BEFA9161CF73F67610B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		F00C78684E88BFAD0AC71B42CCB96EB0 /* ZLPhotosSelectModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 731CCD0D73CD6E34835B8E749944183C /* ZLPhotosSelectModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3578F61044A355438885AF7B8ED781F /* ZLPhotosSelectHardwareJurisdictionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AE8B074F20E40DC632400F656C35B8 /* ZLPhotosSelectHardwareJurisdictionManager.m */; };
+		F38005EB4F56DF56CF58DF30D86E907E /* 拍照上传@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7939E7AF10C15E01DE09698DE808C406 /* 拍照上传@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F50D351DBD4C05F0FE2DA1498CE40FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8B3431B5D7E35BC86968E2BA9E472D8;
+			remoteInfo = ZLPhotosSelectViewController;
+		};
+		9163351BD1D589A00B2B17C48BA47BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24EAF979F041961F8CDCD57927E914F4;
+			remoteInfo = "Pods-ZLPhotosSelectViewController_Example";
+		};
+		A61076A85E58A21EB6119D4E0B5A5292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70ED0BB7C98B5D2C18554690AFFDF1C1;
+			remoteInfo = "ZLPhotosSelectViewController-ZLPhotosSelectViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04433E3C410A60C3DEDE748325018746 /* ZLPhotosSelectViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLPhotosSelectViewController-dummy.m"; sourceTree = "<group>"; };
+		05050015D74770471671BC317EB74C02 /* ZLPhotosSelectViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZLPhotosSelectViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		063A8E3013400EE96DA09709A4FA5142 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		068FBD8E44A7A1157CC0E22258256CCC /* ZLPhotosSelectMessageTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotosSelectMessageTextView.h; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectMessageTextView.h; sourceTree = "<group>"; };
+		0AB05BC9F63D20A85C14E69344A86022 /* Pods-ZLPhotosSelectViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLPhotosSelectViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0EF005B7ABE720D48A8403C5D9DCBC8E /* ZLPhotosSelectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotosSelectView.h; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectView.h; sourceTree = "<group>"; };
+		1CC56A1027E4BEBB289E1E91B68B6B71 /* ZLPhotosSelectCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLPhotosSelectCell.m; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectCell.m; sourceTree = "<group>"; };
+		24FF17049BE8FC78C7BA0749C34EFC19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		29EC018FF2C2DB83868D3FC8C2DBA4F1 /* ZLPhotosSelectModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLPhotosSelectModel.m; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectModel.m; sourceTree = "<group>"; };
+		2AF00D881C93209055AA14B619C5DB74 /* Pods-ZLPhotosSelectViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLPhotosSelectViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		2BD48A665507179BEBCC32169BFACC30 /* ZLPhotosSelectViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZLPhotosSelectViewController; path = ZLPhotosSelectViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0221E23960B78F23370B89B042633D /* ZLPhotosSelectViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLPhotosSelectViewController.release.xcconfig; sourceTree = "<group>"; };
+		2EAF3159409AC186FD6CAD8E85BFEFE9 /* ZLPhotosSelectViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLPhotosSelectViewController-umbrella.h"; sourceTree = "<group>"; };
+		309FB67C3766CF7BF6DF8E7625E410DE /* ZLPhotosSelectUnitModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotosSelectUnitModel.h; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectUnitModel.h; sourceTree = "<group>"; };
+		32ACE89D737079CE9AE88493ADE4E464 /* Pods-ZLPhotosSelectViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLPhotosSelectViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3423ED071EEB11E59F5915E004C05CF8 /* Pods-ZLPhotosSelectViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLPhotosSelectViewController_Example.modulemap"; sourceTree = "<group>"; };
+		3505FB63DBB2779C6D2AFACCCD65E914 /* 录音@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "录音@2x.png"; path = "ZLPhotosSelectViewController/Assets/录音@2x.png"; sourceTree = "<group>"; };
+		370052C604E6E3B993E70F361DB02D91 /* 相册@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "相册@3x.png"; path = "ZLPhotosSelectViewController/Assets/相册@3x.png"; sourceTree = "<group>"; };
+		3C1127B5664ACCFF6EBC0D03460FCD26 /* ZLPhotosSelectHardwareJurisdictionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotosSelectHardwareJurisdictionManager.h; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectHardwareJurisdictionManager.h; sourceTree = "<group>"; };
+		3DF2E4CB6B3E344B2D6F4F702CFB359D /* Pods-ZLPhotosSelectViewController_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZLPhotosSelectViewController_Example"; path = Pods_ZLPhotosSelectViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46208E3CBE2A986F1225BDB764DD7DA5 /* 拍照上传@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "拍照上传@3x.png"; path = "ZLPhotosSelectViewController/Assets/拍照上传@3x.png"; sourceTree = "<group>"; };
+		46CFD27CE87BA7A55F125221D0548BA9 /* ZLPhotosSelectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLPhotosSelectView.m; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectView.m; sourceTree = "<group>"; };
+		47C78D63C6E9EE6214B33FDD8E5DE9B4 /* ZLPhotosSelectNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotosSelectNavBar.h; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectNavBar.h; sourceTree = "<group>"; };
+		4A904085685FF1A92DAB3B1C581AF203 /* ZLPhotosSelectViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLPhotosSelectViewController.debug.xcconfig; sourceTree = "<group>"; };
+		4B74CED7F1D9EBF8FE43CDE914B2727C /* ZLPhotosSelectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotosSelectViewController.h; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectViewController.h; sourceTree = "<group>"; };
+		4EB706A9411964F52CDF22310BBA052B /* ZLPhotosSelectUnitModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLPhotosSelectUnitModel.m; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectUnitModel.m; sourceTree = "<group>"; };
+		5B34270A8B3870193323856C024051D9 /* Pods-ZLPhotosSelectViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLPhotosSelectViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		6A426FD9A50E39F06F44C18BF9727803 /* Pods-ZLPhotosSelectViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLPhotosSelectViewController_Example-Info.plist"; sourceTree = "<group>"; };
+		6B4588D9F8BF048D4D6F4ABBBD1101C4 /* Pods-ZLPhotosSelectViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLPhotosSelectViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E94207AC5FE75E8F028C05075484AB1 /* UIImage+ZLGIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ZLGIF.h"; path = "ZLPhotosSelectViewController/Classes/Album/UIImage+ZLGIF.h"; sourceTree = "<group>"; };
+		716D0AD158E5E81A15E0A88AD4BD732A /* ZLPhotosSelectViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLPhotosSelectViewController-prefix.pch"; sourceTree = "<group>"; };
+		72CF9B6D28DF96502DB7008B197AF003 /* 相机@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "相机@3x.png"; path = "ZLPhotosSelectViewController/Assets/相机@3x.png"; sourceTree = "<group>"; };
+		731CCD0D73CD6E34835B8E749944183C /* ZLPhotosSelectModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotosSelectModel.h; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectModel.h; sourceTree = "<group>"; };
+		7524F95091CD8602C40222A9B1C4984F /* ZLCompressionImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLCompressionImageManager.m; path = ZLPhotosSelectViewController/Classes/Compression/ZLCompressionImageManager.m; sourceTree = "<group>"; };
+		7939E7AF10C15E01DE09698DE808C406 /* 拍照上传@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "拍照上传@2x.png"; path = "ZLPhotosSelectViewController/Assets/拍照上传@2x.png"; sourceTree = "<group>"; };
+		7EF1225DCD0C5A4C26E2A538465EC328 /* ZLPhotosSelectConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLPhotosSelectConfig.m; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectConfig.m; sourceTree = "<group>"; };
+		8E2DF10BF79E8D5A6D476C1C8218E49D /* ResourceBundle-ZLPhotosSelectViewController-ZLPhotosSelectViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZLPhotosSelectViewController-ZLPhotosSelectViewController-Info.plist"; sourceTree = "<group>"; };
+		8ED5F511782A8DE616CA118EDEDB95C2 /* Pods-ZLPhotosSelectViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLPhotosSelectViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		90DA32630DB54C74DD8C8071D02588F1 /* ZLPhotosSelectCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotosSelectCell.h; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectCell.h; sourceTree = "<group>"; };
+		92FC0545DEC1914C04718418DD691D0C /* 录音@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "录音@3x.png"; path = "ZLPhotosSelectViewController/Assets/录音@3x.png"; sourceTree = "<group>"; };
+		97B8790614FA004EEAE76DE35588CB10 /* ZLOperationProgressBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLOperationProgressBar.h; path = ZLPhotosSelectViewController/Classes/Album/ZLOperationProgressBar.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A3650EC474FE8E3A6C1E17786CEB6A /* Pods-ZLPhotosSelectViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLPhotosSelectViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		A0A4D5EFF319B7F18618185D58351775 /* ZLPhotosSelectSandboxManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotosSelectSandboxManager.h; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectSandboxManager.h; sourceTree = "<group>"; };
+		A2C1F619BA0F01F33EBB20A9E71B6A2E /* ZLPhotosSelectViewController-ZLPhotosSelectViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ZLPhotosSelectViewController-ZLPhotosSelectViewController"; path = ZLPhotosSelectViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58EC7BBD8BAE5B6C4106C618BB0D3FC /* ZLPhotosSelectSandboxManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLPhotosSelectSandboxManager.m; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectSandboxManager.m; sourceTree = "<group>"; };
+		ACB76C6E2F9ACFCB6194A279E00F9524 /* ZLPhotosSelectNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLPhotosSelectNavBar.m; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectNavBar.m; sourceTree = "<group>"; };
+		AEEADB378F1CE1BAD3EAE6D556547A1D /* ZLPhotosSelectViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLPhotosSelectViewController.modulemap; sourceTree = "<group>"; };
+		B072CABC19FC4ACDBBC054459713C9E8 /* ZLPhotosSelectMessageTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLPhotosSelectMessageTextView.m; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectMessageTextView.m; sourceTree = "<group>"; };
+		B31A5E23CF05B806A692221876F5C2A0 /* Pods-ZLPhotosSelectViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLPhotosSelectViewController_Tests-Info.plist"; sourceTree = "<group>"; };
+		B55ABEFD700ED2AD8992AD5FE84F6717 /* 相册@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "相册@2x.png"; path = "ZLPhotosSelectViewController/Assets/相册@2x.png"; sourceTree = "<group>"; };
+		BEAFD4A2E259F8569A682CEDCECAED68 /* ZLOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLOperationManager.m; path = ZLPhotosSelectViewController/Classes/OperationQueue/ZLOperationManager.m; sourceTree = "<group>"; };
+		BEC884EA8C327882B2A6D3661342B3FD /* ZLPhotosSelectConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotosSelectConfig.h; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectConfig.h; sourceTree = "<group>"; };
+		C656D2968D0699753D686998F50AFCFC /* UIImage+ZLGIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ZLGIF.m"; path = "ZLPhotosSelectViewController/Classes/Album/UIImage+ZLGIF.m"; sourceTree = "<group>"; };
+		C84DAA2CA67CB868CDAB7E7E1992FA5F /* Pods-ZLPhotosSelectViewController_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZLPhotosSelectViewController_Tests"; path = Pods_ZLPhotosSelectViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA02F3445DA9F81CB9CE7A3596A085F9 /* Pods-ZLPhotosSelectViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLPhotosSelectViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CECCB945D9C176B62FB76766353A394A /* Pods-ZLPhotosSelectViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLPhotosSelectViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D1B3161C5651C0DDF337149D5EBF3B5E /* Pods-ZLPhotosSelectViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLPhotosSelectViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D6951136DAF408C9D9640340F271FDAE /* 相机@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "相机@2x.png"; path = "ZLPhotosSelectViewController/Assets/相机@2x.png"; sourceTree = "<group>"; };
+		DF9428B13C504AB1816BFF8A91DFCDCC /* Pods-ZLPhotosSelectViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLPhotosSelectViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E230ECA21D2127FAAA268DF16C069F53 /* Pods-ZLPhotosSelectViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLPhotosSelectViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E56801756469897A7694D22686072F8C /* ZLPhotosSelectViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLPhotosSelectViewController-Info.plist"; sourceTree = "<group>"; };
+		E6736D82BF96A0CC7EE5E57026703B20 /* Pods-ZLPhotosSelectViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLPhotosSelectViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E67B8993FAFC733FAD11F6999E6244DA /* Pods-ZLPhotosSelectViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLPhotosSelectViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E774890577B40A49BEAC5635B2BE2615 /* ZLPhotosSelectImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotosSelectImageView.h; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectImageView.h; sourceTree = "<group>"; };
+		E8C0135639996EF272B69867E87ABB7C /* ZLPhotosSelectViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLPhotosSelectViewController.m; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectViewController.m; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ECBF7BD2E5524182403E41552E2A80B4 /* ZLPhotosSelectImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLPhotosSelectImageView.m; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectImageView.m; sourceTree = "<group>"; };
+		F048924AF955E62C1C5A52B881B18840 /* ZLOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLOperationManager.h; path = ZLPhotosSelectViewController/Classes/OperationQueue/ZLOperationManager.h; sourceTree = "<group>"; };
+		F1A09830597B7650B45482BAF9483F92 /* ZLCompressionImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLCompressionImageManager.h; path = ZLPhotosSelectViewController/Classes/Compression/ZLCompressionImageManager.h; sourceTree = "<group>"; };
+		F2AE8B074F20E40DC632400F656C35B8 /* ZLPhotosSelectHardwareJurisdictionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLPhotosSelectHardwareJurisdictionManager.m; path = ZLPhotosSelectViewController/Classes/Album/ZLPhotosSelectHardwareJurisdictionManager.m; sourceTree = "<group>"; };
+		F59C06CFE0AF8350B4751D4CF30A1009 /* ZLOperationProgressBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLOperationProgressBar.m; path = ZLPhotosSelectViewController/Classes/Album/ZLOperationProgressBar.m; sourceTree = "<group>"; };
+		F9AEB40BBC7C9CB29DF42F1CFE2B0E55 /* ZLPhotosSelectHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPhotosSelectHeader.h; path = ZLPhotosSelectViewController/Classes/ZLPhotosSelectHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EC772AE948FC1F3CEBB652C26D26EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D4BC3911A903B624837DC38148FEE3 /* Foundation.framework in Frameworks */,
+				CAD57B78D76CE43C84A8A844CEB37F0B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7220CEC2C799FAFA0983F79DF3617C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD99BBB8812DC6B5DD43E47814298A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100B2C22F13292429CBA113AC772BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3500F88604EF6A0D3C3AD9DA576E23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA466BAED278BEFA9161CF73F67610B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0003F1230090C6DF136BD25E4FD02081 /* OperationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				F048924AF955E62C1C5A52B881B18840 /* ZLOperationManager.h */,
+				BEAFD4A2E259F8569A682CEDCECAED68 /* ZLOperationManager.m */,
+			);
+			name = OperationQueue;
+			sourceTree = "<group>";
+		};
+		0A2DCE4ACF9246435AF5CA2C3566474E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				24FF17049BE8FC78C7BA0749C34EFC19 /* LICENSE */,
+				063A8E3013400EE96DA09709A4FA5142 /* README.md */,
+				05050015D74770471671BC317EB74C02 /* ZLPhotosSelectViewController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0AF94E33C709D1919E6E91B1B4DD9C72 /* Pods-ZLPhotosSelectViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B34270A8B3870193323856C024051D9 /* Pods-ZLPhotosSelectViewController_Tests.modulemap */,
+				E6736D82BF96A0CC7EE5E57026703B20 /* Pods-ZLPhotosSelectViewController_Tests-acknowledgements.markdown */,
+				CA02F3445DA9F81CB9CE7A3596A085F9 /* Pods-ZLPhotosSelectViewController_Tests-acknowledgements.plist */,
+				D1B3161C5651C0DDF337149D5EBF3B5E /* Pods-ZLPhotosSelectViewController_Tests-dummy.m */,
+				B31A5E23CF05B806A692221876F5C2A0 /* Pods-ZLPhotosSelectViewController_Tests-Info.plist */,
+				DF9428B13C504AB1816BFF8A91DFCDCC /* Pods-ZLPhotosSelectViewController_Tests-umbrella.h */,
+				6B4588D9F8BF048D4D6F4ABBBD1101C4 /* Pods-ZLPhotosSelectViewController_Tests.debug.xcconfig */,
+				E67B8993FAFC733FAD11F6999E6244DA /* Pods-ZLPhotosSelectViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZLPhotosSelectViewController_Tests";
+			path = "Target Support Files/Pods-ZLPhotosSelectViewController_Tests";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		175A78FF8573D41A5753691BF4A070FC /* ZLPhotosSelectViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F9AEB40BBC7C9CB29DF42F1CFE2B0E55 /* ZLPhotosSelectHeader.h */,
+				E056032B6290B241ADB5DEB11628123B /* Album */,
+				8B4ACBDCB1C9D6DF74F8C6CA86BA48D3 /* Compression */,
+				0003F1230090C6DF136BD25E4FD02081 /* OperationQueue */,
+				0A2DCE4ACF9246435AF5CA2C3566474E /* Pod */,
+				EA13EEFB77790A479B39F5387AFFFD8D /* Support Files */,
+			);
+			name = ZLPhotosSelectViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1B923E13FCDB9DD6A880CFA42289AADE /* Pods-ZLPhotosSelectViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3423ED071EEB11E59F5915E004C05CF8 /* Pods-ZLPhotosSelectViewController_Example.modulemap */,
+				E230ECA21D2127FAAA268DF16C069F53 /* Pods-ZLPhotosSelectViewController_Example-acknowledgements.markdown */,
+				8ED5F511782A8DE616CA118EDEDB95C2 /* Pods-ZLPhotosSelectViewController_Example-acknowledgements.plist */,
+				2AF00D881C93209055AA14B619C5DB74 /* Pods-ZLPhotosSelectViewController_Example-dummy.m */,
+				0AB05BC9F63D20A85C14E69344A86022 /* Pods-ZLPhotosSelectViewController_Example-frameworks.sh */,
+				6A426FD9A50E39F06F44C18BF9727803 /* Pods-ZLPhotosSelectViewController_Example-Info.plist */,
+				A0A3650EC474FE8E3A6C1E17786CEB6A /* Pods-ZLPhotosSelectViewController_Example-umbrella.h */,
+				CECCB945D9C176B62FB76766353A394A /* Pods-ZLPhotosSelectViewController_Example.debug.xcconfig */,
+				32ACE89D737079CE9AE88493ADE4E464 /* Pods-ZLPhotosSelectViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-ZLPhotosSelectViewController_Example";
+			path = "Target Support Files/Pods-ZLPhotosSelectViewController_Example";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8640D8F639B3C4A2B1E4FB8FA2EE045F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DF2E4CB6B3E344B2D6F4F702CFB359D /* Pods-ZLPhotosSelectViewController_Example */,
+				C84DAA2CA67CB868CDAB7E7E1992FA5F /* Pods-ZLPhotosSelectViewController_Tests */,
+				2BD48A665507179BEBCC32169BFACC30 /* ZLPhotosSelectViewController */,
+				A2C1F619BA0F01F33EBB20A9E71B6A2E /* ZLPhotosSelectViewController-ZLPhotosSelectViewController */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B4ACBDCB1C9D6DF74F8C6CA86BA48D3 /* Compression */ = {
+			isa = PBXGroup;
+			children = (
+				F1A09830597B7650B45482BAF9483F92 /* ZLCompressionImageManager.h */,
+				7524F95091CD8602C40222A9B1C4984F /* ZLCompressionImageManager.m */,
+			);
+			name = Compression;
+			sourceTree = "<group>";
+		};
+		C1F61DEE2A17C5EA77FE183EEA1DF037 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				175A78FF8573D41A5753691BF4A070FC /* ZLPhotosSelectViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C1F61DEE2A17C5EA77FE183EEA1DF037 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				8640D8F639B3C4A2B1E4FB8FA2EE045F /* Products */,
+				DEF8E1871962820DACDDF1844E71E977 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF8E1871962820DACDDF1844E71E977 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B923E13FCDB9DD6A880CFA42289AADE /* Pods-ZLPhotosSelectViewController_Example */,
+				0AF94E33C709D1919E6E91B1B4DD9C72 /* Pods-ZLPhotosSelectViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E056032B6290B241ADB5DEB11628123B /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				6E94207AC5FE75E8F028C05075484AB1 /* UIImage+ZLGIF.h */,
+				C656D2968D0699753D686998F50AFCFC /* UIImage+ZLGIF.m */,
+				97B8790614FA004EEAE76DE35588CB10 /* ZLOperationProgressBar.h */,
+				F59C06CFE0AF8350B4751D4CF30A1009 /* ZLOperationProgressBar.m */,
+				90DA32630DB54C74DD8C8071D02588F1 /* ZLPhotosSelectCell.h */,
+				1CC56A1027E4BEBB289E1E91B68B6B71 /* ZLPhotosSelectCell.m */,
+				BEC884EA8C327882B2A6D3661342B3FD /* ZLPhotosSelectConfig.h */,
+				7EF1225DCD0C5A4C26E2A538465EC328 /* ZLPhotosSelectConfig.m */,
+				3C1127B5664ACCFF6EBC0D03460FCD26 /* ZLPhotosSelectHardwareJurisdictionManager.h */,
+				F2AE8B074F20E40DC632400F656C35B8 /* ZLPhotosSelectHardwareJurisdictionManager.m */,
+				E774890577B40A49BEAC5635B2BE2615 /* ZLPhotosSelectImageView.h */,
+				ECBF7BD2E5524182403E41552E2A80B4 /* ZLPhotosSelectImageView.m */,
+				068FBD8E44A7A1157CC0E22258256CCC /* ZLPhotosSelectMessageTextView.h */,
+				B072CABC19FC4ACDBBC054459713C9E8 /* ZLPhotosSelectMessageTextView.m */,
+				731CCD0D73CD6E34835B8E749944183C /* ZLPhotosSelectModel.h */,
+				29EC018FF2C2DB83868D3FC8C2DBA4F1 /* ZLPhotosSelectModel.m */,
+				47C78D63C6E9EE6214B33FDD8E5DE9B4 /* ZLPhotosSelectNavBar.h */,
+				ACB76C6E2F9ACFCB6194A279E00F9524 /* ZLPhotosSelectNavBar.m */,
+				A0A4D5EFF319B7F18618185D58351775 /* ZLPhotosSelectSandboxManager.h */,
+				A58EC7BBD8BAE5B6C4106C618BB0D3FC /* ZLPhotosSelectSandboxManager.m */,
+				309FB67C3766CF7BF6DF8E7625E410DE /* ZLPhotosSelectUnitModel.h */,
+				4EB706A9411964F52CDF22310BBA052B /* ZLPhotosSelectUnitModel.m */,
+				0EF005B7ABE720D48A8403C5D9DCBC8E /* ZLPhotosSelectView.h */,
+				46CFD27CE87BA7A55F125221D0548BA9 /* ZLPhotosSelectView.m */,
+				4B74CED7F1D9EBF8FE43CDE914B2727C /* ZLPhotosSelectViewController.h */,
+				E8C0135639996EF272B69867E87ABB7C /* ZLPhotosSelectViewController.m */,
+				3505FB63DBB2779C6D2AFACCCD65E914 /* 录音@2x.png */,
+				92FC0545DEC1914C04718418DD691D0C /* 录音@3x.png */,
+				7939E7AF10C15E01DE09698DE808C406 /* 拍照上传@2x.png */,
+				46208E3CBE2A986F1225BDB764DD7DA5 /* 拍照上传@3x.png */,
+				B55ABEFD700ED2AD8992AD5FE84F6717 /* 相册@2x.png */,
+				370052C604E6E3B993E70F361DB02D91 /* 相册@3x.png */,
+				D6951136DAF408C9D9640340F271FDAE /* 相机@2x.png */,
+				72CF9B6D28DF96502DB7008B197AF003 /* 相机@3x.png */,
+			);
+			name = Album;
+			sourceTree = "<group>";
+		};
+		EA13EEFB77790A479B39F5387AFFFD8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E2DF10BF79E8D5A6D476C1C8218E49D /* ResourceBundle-ZLPhotosSelectViewController-ZLPhotosSelectViewController-Info.plist */,
+				AEEADB378F1CE1BAD3EAE6D556547A1D /* ZLPhotosSelectViewController.modulemap */,
+				04433E3C410A60C3DEDE748325018746 /* ZLPhotosSelectViewController-dummy.m */,
+				E56801756469897A7694D22686072F8C /* ZLPhotosSelectViewController-Info.plist */,
+				716D0AD158E5E81A15E0A88AD4BD732A /* ZLPhotosSelectViewController-prefix.pch */,
+				2EAF3159409AC186FD6CAD8E85BFEFE9 /* ZLPhotosSelectViewController-umbrella.h */,
+				4A904085685FF1A92DAB3B1C581AF203 /* ZLPhotosSelectViewController.debug.xcconfig */,
+				2D0221E23960B78F23370B89B042633D /* ZLPhotosSelectViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZLPhotosSelectViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36853F041D05204C8726BC62C8FD9ED2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1CD99D0330A4F5F29439F2335EB688 /* Pods-ZLPhotosSelectViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FDB63932794A47DF7F36D631401EAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A19238E54567BFE3005CEA1B3D99BA /* UIImage+ZLGIF.h in Headers */,
+				730D2B6FCF4623746E252A6CB7D0CE2D /* ZLCompressionImageManager.h in Headers */,
+				95336C5347F3ED832144AFF615C4CF57 /* ZLOperationManager.h in Headers */,
+				A15619B8405883FF4AD1392397E56C4C /* ZLOperationProgressBar.h in Headers */,
+				8A5269DCEC0AD39AA9D540CFA4E9381B /* ZLPhotosSelectCell.h in Headers */,
+				A584E359AE092F080EFB09B64544DC11 /* ZLPhotosSelectConfig.h in Headers */,
+				E95434E1B50BE959DD06381546E4F8F5 /* ZLPhotosSelectHardwareJurisdictionManager.h in Headers */,
+				6558353FC21D60A563DCFFACB141A20F /* ZLPhotosSelectHeader.h in Headers */,
+				5296CBCFF860D17E65C41507296DD449 /* ZLPhotosSelectImageView.h in Headers */,
+				7EE964D5D81695E6B4169F968DC4E570 /* ZLPhotosSelectMessageTextView.h in Headers */,
+				F00C78684E88BFAD0AC71B42CCB96EB0 /* ZLPhotosSelectModel.h in Headers */,
+				CC96BB2D0C5CA541EFE0947D81EA55CB /* ZLPhotosSelectNavBar.h in Headers */,
+				393DE53C19CE3B53BA81A8D76C0D9976 /* ZLPhotosSelectSandboxManager.h in Headers */,
+				D28B224ABE8F38F767049A2BAFD1227B /* ZLPhotosSelectUnitModel.h in Headers */,
+				34C1D25B2A3836765DE3EC8873C4F343 /* ZLPhotosSelectView.h in Headers */,
+				93CA3D0E41D341E4C76B9AD2A594A149 /* ZLPhotosSelectViewController.h in Headers */,
+				C4C686137C3F66F2621B64449AFF74CA /* ZLPhotosSelectViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7E4F18FC25CBC0C432E6B02AF826F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59854D7DC1EBD8E7ACF7F0301185C2FC /* Pods-ZLPhotosSelectViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24EAF979F041961F8CDCD57927E914F4 /* Pods-ZLPhotosSelectViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EB38AC21EF0F1F3D9257CCEF12185D /* Build configuration list for PBXNativeTarget "Pods-ZLPhotosSelectViewController_Example" */;
+			buildPhases = (
+				36853F041D05204C8726BC62C8FD9ED2 /* Headers */,
+				11ACF088B7E1B1D36175B4E30C3A19AA /* Sources */,
+				E3500F88604EF6A0D3C3AD9DA576E23D /* Frameworks */,
+				3B73C5A76EDB7254A3C9BE8BE40D3BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5B7655E5A7EBAF32F19A4CA63772C55 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZLPhotosSelectViewController_Example";
+			productName = Pods_ZLPhotosSelectViewController_Example;
+			productReference = 3DF2E4CB6B3E344B2D6F4F702CFB359D /* Pods-ZLPhotosSelectViewController_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		70ED0BB7C98B5D2C18554690AFFDF1C1 /* ZLPhotosSelectViewController-ZLPhotosSelectViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B68A40DBF844687E720E2CCFEEAE184 /* Build configuration list for PBXNativeTarget "ZLPhotosSelectViewController-ZLPhotosSelectViewController" */;
+			buildPhases = (
+				8256E286EE4F8EE980C69ACB9D049177 /* Sources */,
+				C100B2C22F13292429CBA113AC772BC6 /* Frameworks */,
+				A40E0D416EE99F7EB3E34297F398BFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZLPhotosSelectViewController-ZLPhotosSelectViewController";
+			productName = ZLPhotosSelectViewController;
+			productReference = A2C1F619BA0F01F33EBB20A9E71B6A2E /* ZLPhotosSelectViewController-ZLPhotosSelectViewController */;
+			productType = "com.apple.product-type.bundle";
+		};
+		834A61F6A397C2E6FD390CFFBD909994 /* Pods-ZLPhotosSelectViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD90744DCDA5179EAC83410DCE49BB79 /* Build configuration list for PBXNativeTarget "Pods-ZLPhotosSelectViewController_Tests" */;
+			buildPhases = (
+				DB7E4F18FC25CBC0C432E6B02AF826F0 /* Headers */,
+				CF29DD3FC96AB01E0B65DD3108C5F25B /* Sources */,
+				7220CEC2C799FAFA0983F79DF3617C77 /* Frameworks */,
+				ECD7C0E0AD9F5ED0A6E587D6AC4E4287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DD3BF7D769796E6B614D819DF08AB6A /* PBXTargetDependency */,
+			);
+			name = "Pods-ZLPhotosSelectViewController_Tests";
+			productName = Pods_ZLPhotosSelectViewController_Tests;
+			productReference = C84DAA2CA67CB868CDAB7E7E1992FA5F /* Pods-ZLPhotosSelectViewController_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8B3431B5D7E35BC86968E2BA9E472D8 /* ZLPhotosSelectViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B05866DB219A6A9A52C846C9178B62 /* Build configuration list for PBXNativeTarget "ZLPhotosSelectViewController" */;
+			buildPhases = (
+				A5FDB63932794A47DF7F36D631401EAE /* Headers */,
+				0D59F1917CF63EC13E9BD0132178CF56 /* Sources */,
+				1EC772AE948FC1F3CEBB652C26D26EB3 /* Frameworks */,
+				C6F442B0FF31DEB7BF094C1C92674249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1674234CDD5BE606F97B6B60F6E0B3E2 /* PBXTargetDependency */,
+			);
+			name = ZLPhotosSelectViewController;
+			productName = ZLPhotosSelectViewController;
+			productReference = 2BD48A665507179BEBCC32169BFACC30 /* ZLPhotosSelectViewController */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8640D8F639B3C4A2B1E4FB8FA2EE045F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24EAF979F041961F8CDCD57927E914F4 /* Pods-ZLPhotosSelectViewController_Example */,
+				834A61F6A397C2E6FD390CFFBD909994 /* Pods-ZLPhotosSelectViewController_Tests */,
+				E8B3431B5D7E35BC86968E2BA9E472D8 /* ZLPhotosSelectViewController */,
+				70ED0BB7C98B5D2C18554690AFFDF1C1 /* ZLPhotosSelectViewController-ZLPhotosSelectViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B73C5A76EDB7254A3C9BE8BE40D3BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40E0D416EE99F7EB3E34297F398BFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4BAF4EE5C5DEE5DF6D410C86CCC81A /* 录音@2x.png in Resources */,
+				5FB96EA02536E3AFFF04D4170D8D8717 /* 录音@3x.png in Resources */,
+				F38005EB4F56DF56CF58DF30D86E907E /* 拍照上传@2x.png in Resources */,
+				5A1A4BF4867B69ED3074FC916BB30D67 /* 拍照上传@3x.png in Resources */,
+				D86210E8F28B61266705D0B7A2BA1759 /* 相册@2x.png in Resources */,
+				2D32635CCB6409C6F6621FE051F1D9C8 /* 相册@3x.png in Resources */,
+				31B3E4407878184D4F7ADB0345A1EBD9 /* 相机@2x.png in Resources */,
+				BB38F5C6690E6E1D2A44115270E09EBC /* 相机@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F442B0FF31DEB7BF094C1C92674249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4757F9D7EFB3753010DDFEE101CB1E /* ZLPhotosSelectViewController-ZLPhotosSelectViewController in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD7C0E0AD9F5ED0A6E587D6AC4E4287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D59F1917CF63EC13E9BD0132178CF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0F0E80E44F8947A83458E75ED80264 /* UIImage+ZLGIF.m in Sources */,
+				D0F7A009D85A3110383D4953D4B32946 /* ZLCompressionImageManager.m in Sources */,
+				79F1C4342A8AB9E211A43817A74A347B /* ZLOperationManager.m in Sources */,
+				438D4C399C42C595F313E4E7D01E9DF9 /* ZLOperationProgressBar.m in Sources */,
+				C646EAF0AAEBCE48D0E3244D9736D08F /* ZLPhotosSelectCell.m in Sources */,
+				26A490EBFAD18474D6046B5017076990 /* ZLPhotosSelectConfig.m in Sources */,
+				F3578F61044A355438885AF7B8ED781F /* ZLPhotosSelectHardwareJurisdictionManager.m in Sources */,
+				E93F1ED52C0D6CA11FB40EA21E62B7DE /* ZLPhotosSelectImageView.m in Sources */,
+				924957F48DA0556F95C6A107FCC3DFA2 /* ZLPhotosSelectMessageTextView.m in Sources */,
+				2CF26093BA18B30D161124935A9394FD /* ZLPhotosSelectModel.m in Sources */,
+				046C05070F09F741D6005411FFBB36D0 /* ZLPhotosSelectNavBar.m in Sources */,
+				C93F1712400E68201DCF24ED48C052C2 /* ZLPhotosSelectSandboxManager.m in Sources */,
+				63D13A43CEECB5EAAD8561B52A47640E /* ZLPhotosSelectUnitModel.m in Sources */,
+				83DEB88A27897E126739B189F211E917 /* ZLPhotosSelectView.m in Sources */,
+				76B0969A7377A2BDCBE16E2DA4FE9B7E /* ZLPhotosSelectViewController.m in Sources */,
+				49524CECD03B562E2382A7A7FCF3D80C /* ZLPhotosSelectViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11ACF088B7E1B1D36175B4E30C3A19AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECC13005086ECA0AB6DF720CF196E7F /* Pods-ZLPhotosSelectViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8256E286EE4F8EE980C69ACB9D049177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF29DD3FC96AB01E0B65DD3108C5F25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C0D949F22C341C3F8F1F2826F176E5 /* Pods-ZLPhotosSelectViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1674234CDD5BE606F97B6B60F6E0B3E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZLPhotosSelectViewController-ZLPhotosSelectViewController";
+			target = 70ED0BB7C98B5D2C18554690AFFDF1C1 /* ZLPhotosSelectViewController-ZLPhotosSelectViewController */;
+			targetProxy = A61076A85E58A21EB6119D4E0B5A5292 /* PBXContainerItemProxy */;
+		};
+		9DD3BF7D769796E6B614D819DF08AB6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZLPhotosSelectViewController_Example";
+			target = 24EAF979F041961F8CDCD57927E914F4 /* Pods-ZLPhotosSelectViewController_Example */;
+			targetProxy = 9163351BD1D589A00B2B17C48BA47BDE /* PBXContainerItemProxy */;
+		};
+		D5B7655E5A7EBAF32F19A4CA63772C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLPhotosSelectViewController;
+			target = E8B3431B5D7E35BC86968E2BA9E472D8 /* ZLPhotosSelectViewController */;
+			targetProxy = 2F50D351DBD4C05F0FE2DA1498CE40FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		28517A75FCC759F90ACDA89EF78F80E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4588D9F8BF048D4D6F4ABBBD1101C4 /* Pods-ZLPhotosSelectViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLPhotosSelectViewController_Tests/Pods-ZLPhotosSelectViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLPhotosSelectViewController_Tests/Pods-ZLPhotosSelectViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		304BCEB9E041372CDA55238542336DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0221E23960B78F23370B89B042633D /* ZLPhotosSelectViewController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLPhotosSelectViewController/ZLPhotosSelectViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLPhotosSelectViewController/ZLPhotosSelectViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLPhotosSelectViewController/ZLPhotosSelectViewController.modulemap";
+				PRODUCT_MODULE_NAME = ZLPhotosSelectViewController;
+				PRODUCT_NAME = ZLPhotosSelectViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76C05482B4D09A39CCACD6587018181E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECCB945D9C176B62FB76766353A394A /* Pods-ZLPhotosSelectViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLPhotosSelectViewController_Example/Pods-ZLPhotosSelectViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLPhotosSelectViewController_Example/Pods-ZLPhotosSelectViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A5512F92B8A9C92FCA1273CDFA0599D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67B8993FAFC733FAD11F6999E6244DA /* Pods-ZLPhotosSelectViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLPhotosSelectViewController_Tests/Pods-ZLPhotosSelectViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLPhotosSelectViewController_Tests/Pods-ZLPhotosSelectViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92C1F9AA0DBC66BB9DA1B664EFCA0673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0221E23960B78F23370B89B042633D /* ZLPhotosSelectViewController.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZLPhotosSelectViewController";
+				IBSC_MODULE = ZLPhotosSelectViewController;
+				INFOPLIST_FILE = "Target Support Files/ZLPhotosSelectViewController/ResourceBundle-ZLPhotosSelectViewController-ZLPhotosSelectViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ZLPhotosSelectViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9F157C39A85F7ED86604CD01A19D076E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A904085685FF1A92DAB3B1C581AF203 /* ZLPhotosSelectViewController.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZLPhotosSelectViewController";
+				IBSC_MODULE = ZLPhotosSelectViewController;
+				INFOPLIST_FILE = "Target Support Files/ZLPhotosSelectViewController/ResourceBundle-ZLPhotosSelectViewController-ZLPhotosSelectViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ZLPhotosSelectViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C9946E32963352633D621C245DB2E29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32ACE89D737079CE9AE88493ADE4E464 /* Pods-ZLPhotosSelectViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLPhotosSelectViewController_Example/Pods-ZLPhotosSelectViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLPhotosSelectViewController_Example/Pods-ZLPhotosSelectViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EC139F38707CF93908AF4F542770D86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A904085685FF1A92DAB3B1C581AF203 /* ZLPhotosSelectViewController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLPhotosSelectViewController/ZLPhotosSelectViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLPhotosSelectViewController/ZLPhotosSelectViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLPhotosSelectViewController/ZLPhotosSelectViewController.modulemap";
+				PRODUCT_MODULE_NAME = ZLPhotosSelectViewController;
+				PRODUCT_NAME = ZLPhotosSelectViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36B05866DB219A6A9A52C846C9178B62 /* Build configuration list for PBXNativeTarget "ZLPhotosSelectViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC139F38707CF93908AF4F542770D86D /* Debug */,
+				304BCEB9E041372CDA55238542336DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B68A40DBF844687E720E2CCFEEAE184 /* Build configuration list for PBXNativeTarget "ZLPhotosSelectViewController-ZLPhotosSelectViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F157C39A85F7ED86604CD01A19D076E /* Debug */,
+				92C1F9AA0DBC66BB9DA1B664EFCA0673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD90744DCDA5179EAC83410DCE49BB79 /* Build configuration list for PBXNativeTarget "Pods-ZLPhotosSelectViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28517A75FCC759F90ACDA89EF78F80E4 /* Debug */,
+				8A5512F92B8A9C92FCA1273CDFA0599D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2EB38AC21EF0F1F3D9257CCEF12185D /* Build configuration list for PBXNativeTarget "Pods-ZLPhotosSelectViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C05482B4D09A39CCACD6587018181E /* Debug */,
+				C9946E32963352633D621C245DB2E29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZLPhotosSelectViewController_Example' do
+  pod 'ZLPhotosSelectViewController', :path => '../'
+
+  target 'ZLPhotosSelectViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
